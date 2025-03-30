@@ -12,32 +12,12 @@ export const siteConfig = {
     },
     routes: [
         {
-            label: "Home",
+            label: "Login",
             url: "/",
         },
         {
-            label: "Resume",
-            url: "/resume",
-        },
-        {
-            label: "Languajes",
-            url: "/skills",
-        },
-        {
-            label: "Projects",
-            url: "/projects",
-        }, 
-        {
-            label: "Experience",
-            url: "/experience",
-        },
-        {
-            label: "Certifications",
-            url: "/certifications",
-        },
-        {
-            label: "Contact",
-            url: "/contact",
+            label: "Register",
+            url: "/register",
         },  
     ],
 }

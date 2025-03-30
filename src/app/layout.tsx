@@ -6,7 +6,7 @@ import { siteConfig } from "./config/siteconfig";
 import { Providers } from "./provider";
 
 import "@/styles/globals.css";
-import { Header } from "@/components/head/Header";
+import { Header } from "@/components/head/HeaderOutSession";
 
 /*
 const geistSans = Geist({
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   icons: {
-    icon: "/images/skl.png",
+    icon: "/images/xochi.png",
   },
   generator: "xochikua",
   applicationName: "xochikua",
   referrer: "origin-when-cross-origin",
-  keywords: ["xochikua", "Blockchain", "Colaboración", "Internet computer", "sklconnect", "Im_JVallejo", "SKL", "Next.js"],
-  authors: [{ name: "xochikua-team", url: "https://sklconnect.com" }],
-  creator: 'Im_JVallejo',
-  publisher: 'Im_JVallejo',
+  "keywords": ["blockchain", "internet computer", "xochikua", "ipc", "react", "nextjs", "tailwindcss", "hackathon"],
+  authors: [{ name: "xochikua-team", url: "https://xochikua.sklconnect.com" }],
+  creator: 'Xochikua-team',
+  publisher: 'Xochikua-team',
   formatDetection: {
     email: false,
     address: false,
