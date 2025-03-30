@@ -2,13 +2,14 @@
 import React from "react";
 import {Form, Input, Button} from "@heroui/react";
 
-export default function Deposit() {
+export default function Cobrar() {
     const [action, setAction] = React.useState<string | null>(null);
 
   return (
     <>
-      <h2 className="text-4xl text-center mb-4">Depositar</h2>
-      <div className="flex items-center justify-center p-4">
+      <h2 className="text-4xl text-center mb-4">Cobrar</h2>
+        <div className="flex items-center justify-center p-4">
+
         <Form
           className="w-full max-w-xs flex flex-col gap-4"
           onReset={() => setAction("reset")}
