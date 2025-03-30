@@ -7,7 +7,7 @@ export default function Cobrar() {
 
   return (
     <>
-      <h2 className="text-4xl text-center mb-4">Cobrar</h2>
+      <h2 className="text-4xl text-center mb-4">Transferencia</h2>
         <div className="flex items-center justify-center p-4">
 
         <Form
