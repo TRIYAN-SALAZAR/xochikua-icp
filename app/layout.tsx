@@ -1,3 +1,4 @@
+import { Header } from "./components/header"
 import { Providers } from "./providers"
 
 export const metadata = {
@@ -13,8 +14,11 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <body>
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "dark", children: "" }}>
+        {/* <Header /> */}
+        <main className="container mx-auto max-md:mt-6 md:mt-12 max-sm:px-0 sm:px-6 md:px-4 lg:px-8 xl:px-4">
           {children}
+        </main>
         </Providers>
       </body>
     </html>
