@@ -1,7 +1,7 @@
 {
   "canisters": {
     "xochikua-ipc-backend": {
-      "main": "src/xochikua-ipc-backend/main.mo",
+      "main": "backend/main.mo",
       "type": "motoko"
     }
   },
