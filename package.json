@@ -1,29 +1,32 @@
 {
-  "name": "xochikua-ipc",
-  "version": "1.0.0",
-  "description": "Welcome to your new `xochikua-ipc` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@dfinity/agent": "^2.4.0",
     "@heroui/react": "^2.7.5",
-    "@tailwindcss/postcss": "^4.0.17",
-    "@types/node": "^22.13.14",
-    "@types/react": "^19.0.12",
-    "framer-motion": "^12.6.2",
-    "next": "^15.2.4",
-    "next-themes": "^0.4.6",
-    "postcss": "^8.5.3",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "tailwindcss": "^4.0.17",
-    "typescript": "^5.8.2"
+    "@react-stately/grid": "3.10.1",
+    "autoprefixer": "^10.4.20",
+    "framer-motion": "^12.4.3",
+    "next": "15.1.6",
+    "next-themes": "^0.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

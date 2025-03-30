@@ -1,6 +1,15 @@
 export type Siteconfig = typeof siteConfig;
 
 export const siteConfig = {
+    name: "Xochikua",
+    description: "",
+    url: "",
+    links: {
+        github: "https://github.com/TRIYAN-SALAZAR/xochikua-icp",
+    },
+    arialabel: {
+        github: "Github",
+    },
     routes: [
         {
             label: "Home",
@@ -31,19 +40,4 @@ export const siteConfig = {
             url: "/contact",
         },  
     ],
-    directRoutes: {
-        home: "/",
-        resume: "/resume",
-        skills: "/skills",
-        projects: "/projects",
-        experience: "/experience",
-        Certifications: "/certifications",
-        contact: "/contact",
-    },
-    links: {
-        github: "https://github.com/Yukyshiram",
-        linkendin: "",
-        instagram: "",
-        facebook: "",
-    }
 }

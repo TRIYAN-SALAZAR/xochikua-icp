@@ -1,6 +1,6 @@
 import { Dropdown, Link, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@heroui/react";
-import { MenuIcon } from "./icons/actions";
-import { siteConfig } from "./siteconfig";
+import { MenuIcon } from '../icons/Actions';
+import { siteConfig } from "@/app/config/siteconfig";
 
 export default function Menu() {
     return (
@@ -15,13 +15,12 @@ export default function Menu() {
                     <DropdownItem
                         key={item.label}
                         color={item.label === "delete" ? "danger" : "default"}
-                        className={item.label=== "delete" ? "text-danger" : ""}
-                        href={item.url}
-                    >
+                        className={item.label === "delete" ? "text-danger" : ""}
+                        href={item.url}>
                         {item.label}
                     </DropdownItem>
                 )}
             </DropdownMenu>
         </Dropdown>
-    );
+    )
 }
