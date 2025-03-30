@@ -7,13 +7,6 @@ import {
     NavbarContent,
     NavbarItem,
     Link,
-    Input,
-    DropdownItem,
-    DropdownTrigger,
-    Dropdown,
-    DropdownMenu,
-    Avatar,
-    Button,
 } from "@heroui/react";
 
 import { ThemeSwitch } from "./Theme_Switch";

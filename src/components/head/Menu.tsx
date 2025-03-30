@@ -1,4 +1,4 @@
-import { Dropdown, Link, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@heroui/react";
+import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@heroui/react";
 import { MenuIcon } from '../icons/Actions';
 import { siteConfig } from "@/app/config/siteconfig";
 

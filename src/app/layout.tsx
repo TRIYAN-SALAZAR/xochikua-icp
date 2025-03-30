@@ -1,15 +1,12 @@
 import React from "react";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import clsx from "clsx";
 
 import { siteConfig } from "./config/siteconfig";
 import { Providers } from "./provider";
-import { fontSans } from "@/app/config/fonts";
 
 import "@/styles/globals.css";
 import { Header } from "@/components/head/Header";
-import { Footer } from "@/components/footer/foo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
