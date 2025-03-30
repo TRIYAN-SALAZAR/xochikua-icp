@@ -13,10 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "@dfinity/agent": "^2.4.0",
+    "@heroui/react": "^2.7.5",
     "@tailwindcss/postcss": "^4.0.17",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",
+    "framer-motion": "^12.6.2",
     "next": "^15.2.4",
+    "next-themes": "^0.4.6",
     "postcss": "^8.5.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
